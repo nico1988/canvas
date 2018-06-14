@@ -28,6 +28,10 @@ img.onload = function () {
       ctx.lineTo(125,125)
     ctx.stroke()
     ctx.fill()
-    ctx.strokeText("hello nico",50,20)
+    ctx.fillStyle = 'white'
+    ctx.strokeStyle = "black"
+    ctx.font = '36px Impact'
+    ctx.textAlign = 'center'
+    ctx.strokeText("hello nico",c.width/2,50)
 }
 img.src = './daydayup.png'
